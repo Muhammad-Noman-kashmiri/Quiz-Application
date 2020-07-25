@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>auiz aap p</title>
+</head>
+<body>
+    <h1 id="main">Let's Play Quiz Game</h1>
+<form id="quiz" name="quiz" class="container">
+
+
+    <p>1. Who is the founder of pakistan?</p>
+    <input id="text-box" type="radio" name="question1" value="Muhammad Ali Jinnah">Muhammad Ali Jinnah
+     <br>
+    <input id="text-box" type="radio" name="question1">Allama Iqbal
+    <br> <input id="text-box" type="radio" name="question1">Fatimah Jinnah<br>
+
+    <p>2: Who is the National poet of Pakistan ?</p>
+    <input id="text-box" type="radio" name="question2" value="Allama Iqbal">Allama Iqbal<br>
+    <input id="text-box" type="radio" name="question2" > Moumin Khan Moumin
+    <br> <input id="text-box" type="radio" name="question2">Mirza Ghalib<br>
+
+    <p>3: what is the name of national flower of pakistan?</p>
+    <input id="text-box" type="radio" name="question3" value="jasmine"> jasmine<br>
+    <input id="text-box" type="radio" name="question3">Cedar
+    <br> <input id="text-box" type="radio" name="question3">Rose<br>
+
+    <p>4: what is the name of national animal of pakistan?</p>
+    <input id="text-box" type="radio" name="question4">Cow <br>
+    <input id="text-box" type="radio" name="question4" >OX
+    <br> <input id="text-box" type="radio" name="question4" value="Markhor">Markhor<br>
+
+    <p> 5:how many eyes do bees have?</p>
+    <input id="text-box" type="radio" name="question5">Four <br>
+    <input id="text-box" type="radio" name="question5" value="Five">Five
+    <br> <input id="text-box" type="radio" name="question5">Three<br>
+
+
+    <button type="button" id="button" onclick="check()" class="btn-primary">Submit Your Quiz</button>  
+</form>
+
+
+<div id="after_submit">
+    <p id="number_correct" class="container bg-success"></p>
+    <p id="message"  class="container bg-success"></p>
+    
+</div>
+<br>
+<div class="container" id="img"><img src="" alt=""id="pictures" height="300px" width="50%" ></div>
+</body>
+<script src="app.js"></script>
+</html>
